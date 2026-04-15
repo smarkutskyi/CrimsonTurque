@@ -21,9 +21,6 @@ Full-stack web app built with React (SPA) and Node.js. Features authentication, 
 
 - Uses **3 tables only**
 - Includes **many-to-many relationship** with additional attribute
-- SQL scripts included:
-  - `schema.sql` – database structure
-  - `seed.sql` – sample data
 
 ---
 
