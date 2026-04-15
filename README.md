@@ -31,7 +31,7 @@ Full-stack web app built with React (SPA) and Node.js. Features authentication, 
 
 - Frontend: React (SPA)
 - Backend: Node.js + Express
-- Database: MySQL / MongoDB
+- Database: SQLite
 
 ---
 
