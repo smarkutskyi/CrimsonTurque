@@ -1,0 +1,107 @@
+INSERT INTO Mechanik
+(Id, Imie, Nazwisko, Mail, Haslo, Telefon, Opis, admin)
+VALUES
+    (1, 'Jan', 'Basalma', 'janbasalma@gmail.com', '12345678', '+48763872673',
+     'Wulkanizacja, naprawa podwozia, diagnostyka', 0),
+
+    (2, 'Jacek', 'Jasor', 'jacekjasor@gmail.com', '87654321', '+48123674345',
+     'Lakiernictwo, wymiana sprzęgła, wymiana katalizatora, instalacja AdBlue', 0),
+
+    (3, 'Admin', 'Admin', 'admin@crimsonTorque.eu', 'admin1', 'admin',
+     'Konto administracyjne', 1);
+
+INSERT INTO Mechanik (Imie, Nazwisko, Mail, Haslo, Telefon, Opis, Admin)
+VALUES
+('Marek', 'Nowak', 'marek.nowak@gmail.com', 'marek123', '+48500111222',
+ 'Naprawa silników, diagnostyka komputerowa', 0),
+
+('Anna', 'Kowalska', 'anna.kowalska@gmail.com', 'anna123', '+48500333444',
+ 'Lakiernictwo, naprawa karoserii, serwis klimatyzacji', 0);
+
+
+INSERT INTO Samochod
+(Id, NumerVin, Marka, Model, NumerRejestracyjny, RokProdukcji, Przebieg, Kolor)
+VALUES
+-- Samochody mechanika 1
+(1, 'WVWZZZ1KZ6W111111', 'Volkswagen', 'Golf V', 'KR1A111', 2006, 215000, 'Srebrny'),
+(2, 'WAUZZZ8P47A222222', 'Audi', 'A3', 'WA2B222', 2010, 189000, 'Czarny'),
+(3, 'VF1KZ0M0H33333333', 'Renault', 'Megane', 'GD3C333', 2015, 142000, 'Niebieski'),
+(4, 'YS3FD79Y674444444', 'Saab', '9-3', 'PO4D444', 2008, 248000, 'Szary'),
+(5, 'TMBJJ7NE5E5555555', 'Skoda', 'Octavia', 'LU5E555', 2014, 176000, 'Biały'),
+
+-- Samochody mechanika 2
+(6, 'WDB2030461F666666', 'Mercedes', 'C200', 'KR6F666', 2012, 198000, 'Czarny'),
+(7, 'JMZBL1ZL8A7777777', 'Mazda', '3', 'WX7G777', 2016, 134000, 'Czerwony'),
+(8, 'VF3LCNFYH88888888', 'Peugeot', '508', 'EL8H888', 2018, 98000, 'Granatowy');
+
+
+INSERT INTO Samochod (NumerVin, Marka, Model, NumerRejestracyjny, RokProdukcji, Przebieg, Kolor)
+VALUES
+('1HGCM82633A999001', 'Honda', 'Accord', 'KR9A901', 2013, 120000, 'Czarny'),
+('2FMDK3GC0BBB99902', 'Ford', 'Edge', 'WA9B902', 2016, 98000, 'Srebrny'),
+('3C6UR5FL9JG999003', 'Dodge', 'Ram', 'PO9C903', 2018, 54000, 'Biały');
+
+-- Samochody mechanika 5
+INSERT INTO Samochod (NumerVin, Marka, Model, NumerRejestracyjny, RokProdukcji, Przebieg, Kolor)
+VALUES
+('KL1TD566XFB999004', 'Chevrolet', 'Spark', 'EL9D904', 2015, 87000, 'Czerwony'),
+('VF7LP9HP999999905', 'Peugeot', '3008', 'LU9E905', 2017, 65000, 'Granatowy'),
+('WBA3A9C56DF999006', 'BMW', '320i', 'KR9F906', 2018, 72000, 'Biały');
+
+
+INSERT INTO Wizyta
+(Id, Mechanik_Id, Samochod_Id, CzasRozpoczecia, CzasZakonczenia, Opis, Koszt, Status)
+VALUES
+-- Mechanik 1 (10 wizyt)
+(1, 1, 1, '2025-01-05 08:00', '2025-01-05 10:30', 'Wymiana opon', 200.00, 1),
+(2, 1, 2, '2025-01-07 09:00', '2025-01-07 11:00', 'Diagnostyka zawieszenia', 150.00, 1),
+(3, 1, 3, '2025-01-10 08:30', '2025-01-10 12:00', 'Naprawa hamulców', 450.00, 1),
+(4, 1, 4, '2025-01-15 10:00', NULL, 'Kontrola podwozia', 120.00, 0),
+(5, 1, 5, '2025-01-18 07:45', '2025-01-18 09:15', 'Wyważanie kół', 100.00, 1),
+(6, 1, 1, '2025-01-20 11:00', '2025-01-20 14:00', 'Wymiana amortyzatorów', 800.00, 1),
+(7, 1, 2, '2025-01-22 08:00', '2025-01-22 09:30', 'Diagnostyka komputerowa', 180.00, 1),
+(8, 1, 3, '2025-01-25 12:00', NULL, 'Naprawa wydechu', 600.00, 0),
+(9, 1, 4, '2025-01-27 09:30', '2025-01-27 11:00', 'Wymiana łożysk', 350.00, 1),
+(10, 1, 5, '2025-01-30 08:15', '2025-01-30 10:45', 'Geometria kół', 220.00, 1),
+
+-- Mechanik 2 (5 wizyt)
+(11, 2, 6, '2025-02-03 09:00', '2025-02-03 13:00', 'Lakierowanie drzwi', 1200.00, 1),
+(12, 2, 7, '2025-02-06 08:30', '2025-02-06 12:30', 'Wymiana sprzęgła', 1800.00, 1),
+(13, 2, 8, '2025-02-10 10:00', NULL, 'Wymiana katalizatora', 2200.00, 0),
+(14, 2, 6, '2025-02-14 07:45', '2025-02-14 09:45', 'Instalacja AdBlue', 400.00, 1),
+(15, 2, 7, '2025-02-18 11:00', '2025-02-18 14:30', 'Poprawki lakiernicze', 900.00, 1);
+
+
+INSERT INTO Wizyta
+(Mechanik_Id, Samochod_Id, CzasRozpoczecia, CzasZakonczenia, Opis, Koszt, Status)
+VALUES
+    ( 2, 8, '2025-03-01 08:00', '2025-03-01 10:30', 'Wymiana oleju silnikowego', 250.00, 1),
+    ( 2, 8, '2025-03-03 09:00', '2025-03-03 11:30', 'Kontrola układu hamulcowego', 300.00, 1),
+    ( 2, 8, '2025-03-05 10:00', NULL, 'Diagnostyka silnika', 180.00, 0),
+    (2, 8, '2025-03-07 08:30', '2025-03-07 12:00', 'Wymiana klocków hamulcowych', 450.00, 1),
+    (2, 8, '2025-03-09 11:00', '2025-03-09 13:30', 'Naprawa zawieszenia', 600.00, 1),
+    (2, 8, '2025-03-11 09:15', NULL, 'Sprawdzenie i wymiana filtra paliwa', 150.00, 0),
+    (2, 8, '2025-03-13 10:30', '2025-03-13 12:00', 'Wymiana świec zapłonowych', 220.00, 1),
+    ( 2, 8, '2025-03-15 08:45', '2025-03-15 11:15', 'Regulacja geometrii kół', 300.00, 1),
+    ( 2, 8, '2025-03-17 09:00', NULL, 'Naprawa układu wydechowego', 550.00, 0),
+    ( 2, 8, '2025-03-19 10:00', '2025-03-19 12:30', 'Serwis klimatyzacji', 400.00, 1);
+
+INSERT INTO Wizyta (Mechanik_Id, Samochod_Id, CzasRozpoczecia, CzasZakonczenia, Opis, Koszt, Status)
+VALUES
+(4, 9, '2025-03-01 08:00', '2025-03-01 10:00', 'Wymiana oleju i filtrów', 250.00, 1),
+(4, 10, '2025-03-02 09:00', '2025-03-02 11:30', 'Diagnostyka silnika', 300.00, 1),
+(4, 11, '2025-03-03 08:30', NULL, 'Naprawa układu hamulcowego', 450.00, 0),
+(4, 9, '2025-03-05 10:00', '2025-03-05 12:00', 'Wymiana rozrządu', 600.00, 1),
+(4, 10, '2025-03-06 09:15', NULL, 'Kontrola zawieszenia', 200.00, 0),
+(4, 11, '2025-03-07 11:00', '2025-03-07 13:30', 'Wymiana klocków hamulcowych', 400.00, 1);
+
+
+INSERT INTO Wizyta (Mechanik_Id, Samochod_Id, CzasRozpoczecia, CzasZakonczenia, Opis, Koszt, Status)
+VALUES
+(5, 12, '2025-03-01 08:30', '2025-03-01 10:30', 'Lakierowanie drzwi', 1200.00, 1),
+(5, 13, '2025-03-02 09:00', NULL, 'Naprawa karoserii po stłuczce', 1800.00, 0),
+(5, 14, '2025-03-03 10:00', '2025-03-03 12:30', 'Serwis klimatyzacji', 400.00, 1),
+(5, 12, '2025-03-05 08:45', '2025-03-05 11:00', 'Polerowanie lakieru', 350.00, 1),
+(5, 13, '2025-03-06 09:30', NULL, 'Naprawa wgnieceń karoserii', 500.00, 0),
+(5, 14, '2025-03-07 10:15', '2025-03-07 12:45', 'Wymiana szyb bocznych', 600.00, 1);
+

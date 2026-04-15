@@ -1,0 +1,3 @@
+Run the app using the terminal in IntelliJ IDEA or WebStorm. Open two terminal windows with Ctrl + Shift + T — navigate to the backend directory in one and the frontend directory in the other. In both, run npm install.
+If npm install doesn't work in the frontend, use npm install --legacy-peer-deps instead — the i18n library requires a newer version of TypeScript.
+Once dependencies are installed, run npm start in the backend first, then in the frontend.

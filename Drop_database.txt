@@ -1,0 +1,3 @@
+drop table Wizyta;
+drop table Mechanik;
+drop table Samochod;

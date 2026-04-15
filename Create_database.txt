@@ -1,0 +1,40 @@
+CREATE TABLE Mechanik (
+                          Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                          Imie TEXT NOT NULL,
+                          Nazwisko TEXT NOT NULL,
+                          Mail TEXT NOT NULL,
+                          Haslo TEXT NOT NULL,
+                          Telefon TEXT NOT NULL,
+                          Opis TEXT,
+                          Admin boolean NOT NULL DEFAULT false
+);
+
+
+
+CREATE TABLE Samochod (
+                          Id integer NOT NULL CONSTRAINT Samochod_pk PRIMARY KEY,
+                          NumerVin text NOT NULL,
+                          Marka text NOT NULL,
+                          Model text NOT NULL,
+                          NumerRejestracyjny text NOT NULL,
+                          RokProdukcji integer NOT NULL,
+                          Przebieg integer NOT NULL,
+                          Kolor text NOT NULL
+);
+
+
+CREATE TABLE Wizyta (
+                        Id integer NOT NULL CONSTRAINT Wizyta_pk PRIMARY KEY,
+                        Mechanik_Id integer NOT NULL,
+                        Samochod_Id integer NOT NULL,
+                        CzasRozpoczecia datetime NOT NULL,
+                        CzasZakonczenia datetime,
+                        Opis text NOT NULL,
+                        Koszt decimal(10,2) NOT NULL,
+                        Status boolean NOT NULL,
+                        CONSTRAINT Table_5_Mechanik FOREIGN KEY (Mechanik_Id)
+                            REFERENCES Mechanik (Id),
+                        CONSTRAINT Table_5_Samochod FOREIGN KEY (Samochod_Id)
+                            REFERENCES Samochod (Id)
+);
+
