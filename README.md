@@ -88,8 +88,8 @@ npm start
 
 The application supports two languages:
 
-- 🇵🇱 **Polish (PL)**
-- 🇬🇧 **English (EN)**
+- **Polish (PL)**
+- **English (EN)**
 
 Users can switch between languages directly in the interface.
 
