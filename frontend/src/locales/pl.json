@@ -1,0 +1,320 @@
+{
+  "main": {
+
+    "hero": {
+      "title": "Witaj w CrimsonTorque ",
+
+      "subtitle": "Twoje auto w rękach profesjonalistów! Szybko, solidnie i bez niespodzianek.",
+      "cta": "Znajdź mechanika"
+    },
+
+    "how": {
+      "title": "Jak to działa?",
+      "description": "W trzech prostych krokach uporządkujesz pracę swojego warsztatu"
+    },
+
+    "steps": {
+
+      "step1": {
+
+        "title":   "Załóż konto",
+        "description": "Mechanik lub właściciel warsztatu zakłada konto i uzyskuje dostęp do systemu."
+      },
+
+      "step2": {
+        "title":  "Dodaj pojazd",
+
+        "description":  "Rejestrujesz samochód klienta oraz przypisujesz do niego wizyty i naprawy."
+      },
+
+      "step3": {
+        "title": "Zarządzaj wizytami",
+
+        "description": "Tworzysz wizyty, przeglądasz historię napraw i masz pełną kontrolę nad warsztatem."
+      }
+
+    },
+
+    "features": {
+      "title":  "Dlaczego warto nas wybrać?",
+
+      "feature1": {
+
+        "title": "Profesjonalny sprzęt",
+
+        "description": "Nasze warsztaty są wyposażone w nowoczesne narzędzia, które pozwalają na szybką i dokładną naprawę."
+
+      },
+      "feature2": {
+        "title": "Wykwalifikowani mechanicy",
+
+        "description": "Nasi mechanicy posiadają wieloletnie doświadczenie i dbają o każdy detal."
+      },
+      "feature3": {
+
+        "title": "Szybka realizacja",
+
+        "description": "Nie trać czasu w kolejkach – umawiasz wizytę online i Twój samochód jest gotowy na czas."
+      }
+    }
+  },
+  "footer": "Wszelkie prawa zastrzeżone",
+
+  "about": {
+    "title": "O nas",
+
+    "section1": {
+      "heading": "Kim jesteśmy? ",
+
+      "text": "CrimsonTorque to nowoczesny system webowy stworzony z myślą o warsztatach samochodowych, które chcą pracować szybciej, czyściej i bez chaosu w dokumentach."
+    },
+
+    "section2": {
+
+      "heading": "Dlaczego CrimsonTorque?",
+      "text": "System umożliwia zapisywanie wizyt, pojazdów oraz historii napraw w jednym miejscu, dostępne z każdego urządzenia."
+
+    },
+
+
+    "section3": {
+
+      "heading": "Gotowy na nowy standard pracy?",
+      "text": "Dołącz do mechaników, którzy uporządkowali swój warsztat",
+      "cta": "Zarejestruj się"
+    }
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+
+    "subtitle": "Masz pytania? Chętnie odpowiemy i pomożemy znaleźć najlepsze rozwiązanie",
+
+    "info": {
+      "heading": "Dane kontaktowe",
+      "address": {
+        "label": "Adres" ,
+        "value": "ul. Jana Pawla 45\n03-031 Warszawa, Polska"
+
+      },
+      "phone": {
+        "label": "Telefon",
+        "value": "+48 123 456 789"
+      },
+      "email": {
+        "label": "Email",
+        "value": "kontakt@crimsontorque.pl"
+      },
+      "hours": {
+        "label": "Godziny otwarcia",
+        "weekday": "Poniedziałek – Piątek: 9:00 – 17:00",
+        "weekend": "Sobota – Niedziela: Zamknięte"
+      }
+    },
+
+    "form": {
+      "name": {
+        "label": "Imię i nazwisko",
+        "placeholder": "Jan Kowalski"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "jan@example.com"
+      },
+      "subject": {
+
+        "label": "Temat",
+
+        "placeholder": "W czym możemy pomóc?"
+      },
+      "message": {
+
+        "label": "Wiadomość",
+
+        "placeholder": "Twoja wiadomość..."
+
+      },
+      "submit": "Wyślij wiadomość"
+    }
+  },
+  "searchMechanic": {
+
+    "title": "Wyszukaj mechanika",
+    "fields": {
+
+      "firstName": {
+        "label": "Imię mechanika"
+      },
+
+      "lastName": {
+
+        "label": "Nazwisko mechanika"
+      }
+    },
+    "button": "Wyszukaj"
+
+
+  },
+
+  "pagination": {
+
+    "previous": "Poprzednia",
+    "next": "Następna",
+    "page": "Strona "
+  },
+
+  "topBar": {
+    "home": "Strona główna",
+    "aboutUs": "O nas",
+
+    "contact": "Kontakt",
+    "searchMechanic": "Wyszukaj mechanika",
+
+    "login": "Zaloguj",
+    "register": "Rejestracja",
+    "visits": "Wizyty",
+    "cars": "Samochody",
+    "logout": "Wyloguj",
+    "mechanicy" : "Mechanicy"
+  },
+  "login": {
+    "title": "Zaloguj się",
+    "placeholderMail": "Wpisz swój email",
+    "password": "Hasło:",
+    "placeholderPassword": "Wpisz swoje hasło",
+    "err-sum": "Mail albo Haslo jest nie prawidłowe",
+    "pytanie": "Nie masz konta?",
+    "zarejestruj": "Zarejestruj się",
+    "mustbemail": "Email jest wymagany",
+    "mustbehaslo": "Hasło jest wymagane"
+  },
+  "addMechanik": {
+    "titleRej": "Rejestracja",
+    "firstName":  "Imię",
+    "lastName":  "Nazwisko",
+
+    "password": { "label": "Hasło", "placeholder": "tajnehaslo123" },
+    "phone": "Telefon",
+    "description": { "label": "Opis", "placeholder": "Opis mechanika..." },
+
+    "button": "Zarejestruj się",
+    "errorsSummary": "W formularzu występują błędy",
+    "haveAccount": "Masz konto?",
+    "loginLink": "Zaloguj",
+    "details" : "Szczegóły mechanika",
+    "lista": "Lista mechaników",
+    "edit" : "Edytuj mechanika",
+    "add": "Dodaj Mechanika",
+    "validation": {
+      "firstNameRequired": "Imię jest wymagane",
+      "lastNameRequired": "Nazwisko jest wymagane",
+      "emailRequired": "Email jest wymagany",
+      "emailTooLong": "Email nie może mieć więcej niż 30 znaków",
+      "emailInvalid": "Niepoprawny format email",
+      "passwordLength": "Hasło nie może mieć więcej niż 15 znaków i nie mniejsze niż 5",
+      "phoneRequired": "Telefon jest wymagany",
+      "phoneInvalid": "Niepoprawny numer telefonu"
+    }
+
+  },
+  "client": {
+    "wizyty": {
+      "moje": "Moje wizyty",
+      "delete": "Jeśli będzie to ostatnia wizyta dla tego samochodu, samochód również zostanie usunięty.",
+      "car": "Samochód",
+      "startDate": "Data rozpoczęcia",
+      "hour": "Godzina",
+      "cost": "Koszt"
+    },
+    "samochody": {
+      "moje"  : "Moje samochody",
+      "delete" : "Wszystkie powiązane wizyty zostaną również usunięte.",
+      "rejestracja": "Rejestracja",
+      "kolor" : "Kolor"
+    },
+    "profil" : {
+      "moje" : "Twoje danne",
+      "edytujDane": "Edytuj dane"
+    }
+  },
+  "wizytaStatus" : {
+    "zaplanowana": "Zaplanowana",
+    "zakonczona": "Zakończona"
+  },
+  "wizyty": {
+    "add": "Dodaj wizytę",
+    "edit" : "Edytuj wizytę",
+    "details": "Szczegóły wizyty",
+    "car": "Samochód",
+    "czasRoz": "Czas rozpoczęcia",
+    "czasZak": "Czas zakończenia",
+    "status": "Status",
+    "koszt" : "Koszt",
+    "opis": "Opis",
+    "delete": "Usuń",
+    "back": "Powrót",
+    "edytuj" : "Edytuj",
+    "wybZlisty": "Wybierz z listy",
+    "dodajnowy": "Dodaj nowy",
+    "samochodZlisty" : "Samochód z listy",
+    "zapisz": "Zapisz",
+    "histori": "Historia wizyt",
+    "startDate": "Data rozpoczęcia",
+    "usun": "Czy na pewno chcesz usunąć tę wizytę?\n",
+    "mechanik": "Mechanik",
+    "lista" : "Lista wizyt"
+  },
+  "anuluj": "Anuluj",
+  "samochod" : {
+    "marka": "Marka",
+    "placeMarka" : "Marka samochodu",
+    "placeModel": "Model samochodu",
+    "nrRejestracyjny" : "Numer rejestracyjny",
+    "rokProdukcji" : "Rok produkcji",
+    "przebieg" : "Przebieg",
+    "kolor": "Kolor",
+    "placeKolor": "Kolor samochodu",
+    "details": "Szczegóły samochodu",
+    "smEdytuj": "Edytuj samochód",
+    "usun" : "Czy na pewno chcesz usunąć ten samochód?\n",
+    "lista" : "Lista samochodów",
+    "dodaj" : "Dodaj samochód",
+    "numerVin" : "Numer VIN",
+    "error_vinRequired": "VIN jest wymagany",
+    "error_vinFormat": "VIN musi mieć dokładnie 17 znaków (litery i cyfry)",
+    "error_vinExists": "Samochód z takim VIN już istnieje",
+
+    "error_brandRequired": "Marka jest wymagana",
+    "error_modelRequired": "Model jest wymagany",
+
+    "error_registrationRequired": "Numer rejestracyjny jest wymagany",
+    "error_registrationFormat": "Numer rejestracyjny może mieć max 9 znaków (litery i cyfry)",
+    "error_registrationExists": "Samochód z takim numerem rejestracyjnym już istnieje",
+
+    "error_yearRequired": "Rok produkcji jest wymagany",
+    "error_yearFormat": "Rok produkcji musi mieć 4 cyfry",
+
+    "error_mileageRequired": "Przebieg jest wymagany",
+    "error_mileageFormat": "Przebieg musi być liczbą",
+
+    "error_colorRequired": "Kolor jest wymagany"
+
+  },
+  "akcje": "Akcje",
+  "szczegoly": "Szczegóły",
+  "wybierz": "wybierz",
+  "usunAdmin": "Czy na pewno chcesz usunąć ten samochód?\nWszystkie powiązane wizyty zostaną również usunięte.",
+  "usunMechanik": "Czy na pewno chcesz usunąć tego mechanika? \n Jednocześnie usuniesz wszystkie wizyty powiązane z tym mechanikiem",
+  "wizyta": {
+    "error_selectCar": "Wybierz samochód",
+    "error_startTime": "Wprowadź czas rozpoczęcia",
+    "error_selectMechanic": "Wybierz mechanika",
+    "error_visitDescription": "Wprowadź opis wizyty",
+    "error_costRequired": "Wprowadź koszt",
+    "error_costFormat": "Koszt musi być liczbą (max 2 miejsca po przecinku)",
+    "error_endTimeRequired": "Dla zakończonej wizyty wymagany jest czas zakończenia",
+    "error_endBeforeStart": "Czas zakończenia nie może być wcześniejszy niż czas rozpoczęcia",
+    "error_startAfterEnd": "Czas rozpoczęcia nie może być późniejszy niż czas zakończenia"
+  }
+
+
+}
